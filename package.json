@@ -1,0 +1,29 @@
+{
+  "name": "bitmap_transformer",
+  "version": "0.1.0",
+  "description": "Performs color transforms on bitmap images",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollislau/bitmap_transformer.git"
+  },
+  "author": "hollislau@hotmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hollislau/bitmap_transformer/issues"
+  },
+  "homepage": "https://github.com/hollislau/bitmap_transformer#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.4.5"
+  }
+}
