@@ -7,9 +7,6 @@ var files = ["index.js", "lib/**/*.js", "bin/*", "gulpfile.js"];
 gulp.task("lint:test", () => {
   return gulp.src("./test/**/*test.js")
     .pipe(eslint({
-      envs: [
-        "mocha"
-      ],
       useEslintrc: true
     }))
     .pipe(eslint.format());
