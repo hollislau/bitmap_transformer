@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+var BmTransformer = require(__dirname + "/../lib/bm_trans.js");
+var bmTransformer = new BmTransformer();
+
+bmTransformer.start();
